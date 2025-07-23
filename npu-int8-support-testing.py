@@ -112,7 +112,7 @@ def create_matmul_quantized_weights_only(shape, w_int8):
         return None
 
 # --------------------------------------------------------------------
-# 🔥 COMPREHENSIVE TEST FOR LUNAR LAKE NPU INT8 ISSUES
+#  COMPREHENSIVE TEST FOR LUNAR LAKE NPU INT8 ISSUES
 # --------------------------------------------------------------------
 print("Testing INT8 support on Lunar Lake NPU...")
 print("=" * 60)
