@@ -160,7 +160,7 @@ try:
                 print(f" Model creation failed")
                 continue
                 
-            print(f"✅ Model created successfully")
+            print(f" Model created successfully")
             
             # Compile model
             compiled = core.compile_model(model, device)
@@ -205,7 +205,7 @@ try:
             print("   Use native INT8 with type conversion")
     else:
         print(" No approaches succeeded on NPU")
-        print("💡 TROUBLESHOOTING:")
+        print("TROUBLESHOOTING:")
         print("   1. Check NPU driver version")
         print("   2. Verify OpenVINO version compatibility")
         print("   3. Try updating to latest NPU drivers")
